@@ -1,0 +1,11 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "up": "flexmine:block/spinner_top",
+        "down": "flexmine:block/spinner_bottom",
+        "east": "flexmine:block/spinner_left",
+        "west": "flexmine:block/spinner_right",
+        "south": "flexmine:block/spinner_back",
+        "north": "flexmine:block/spinner_front"
+    }
+}

@@ -1,0 +1,10 @@
+[
+{
+  "modid": "flexmine",
+  "name": "FlexMine Mod",
+  "description": "Just a mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "authorList": ["Krows"]
+}
+]

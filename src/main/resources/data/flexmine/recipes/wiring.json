@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "wiring",
+	"ingredients": [
+		{
+			"item": "minecraft:leather"
+		},
+		{
+			"item": "flexmine:pressed_redstone"
+		}
+	],
+	"result": {
+		"item": "flexmine:wiring",
+		"count": 1
+	}
+}

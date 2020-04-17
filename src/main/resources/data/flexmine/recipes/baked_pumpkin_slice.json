@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "flexmine:pumpkin_slice"
+	},
+	"result": "flexmine:baked_pumpkin_slice",
+	"experience": 0.35,
+	"cookingtime": 200
+}

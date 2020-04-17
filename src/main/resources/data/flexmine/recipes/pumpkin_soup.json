@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" S ",
+		"MPC",
+		" B "
+	],
+	"key": {
+		"S": {
+			"item": "flexmine:pumpkin_slice"
+		},
+		"M": {
+			"item": "minecraft:milk_bucket"
+		},
+		"P": {
+			"item": "minecraft:potato"
+		},
+		"C": {
+			"item": "minecraft:carrot"
+		},
+		"B": {
+			"item": "minecraft:bowl"
+		}
+	},
+	"result": {
+		"item": "flexmine:pumpkin_soup"
+	}
+}

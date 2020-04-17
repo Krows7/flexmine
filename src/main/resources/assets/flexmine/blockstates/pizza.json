@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "bites=0": { "model": "flexmine:block/pizza" },
+        "bites=1": { "model": "flexmine:block/pizza_slice1" },
+        "bites=2": { "model": "flexmine:block/pizza_slice2" },
+        "bites=3": { "model": "flexmine:block/pizza_slice3" }
+    }
+}

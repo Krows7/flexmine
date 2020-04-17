@@ -1,0 +1,23 @@
+{
+	"item.flexmine.flower_soup": "Flower Soup",
+	"item.flexmine.milk_bottle": "Milk Bottle",
+	"item.flexmine.pumpkin_slice": "Pumpkin Slice",
+	"item.flexmine.baked_pumpkin_slice": "Baked Pumpkin Slice",
+	"item.flexmine.pumpkin_cookie": "Pumpkin Cookie",
+	"item.flexmine.musket": "Musket",
+	"item.flexmine.spikes": "Spikes",
+	"item.flexmine.pumpkin_soup": "Pumpkin Soup",
+	"item.flexmine.needle": "Needle",
+	"item.flexmine.minced_meat": "Minced Meat",
+	"item.flexmine.oil_bottle": "Oil Bottle",
+	"item.flexmine.sausage": "Sausage",
+	"item.flexmine.dough": "Dough",
+	"item.flexmine.cheeze": "Cheeze",
+	"item.flexmine.raw_pizza": "Raw Pizza",
+	"entity.minecraft.villager.flexmine.broker": "Broker",
+	"container.flexmine.spinner": "Wool Spinning",
+	"block.flexmine.spinner": "Wool Spinner",
+	"block.flexmine.pizza": "Pizza",
+	"block.flexmine.light_reflector": "Light Reflector",
+	"block.flexmine.light_detector": "Light Detector"
+}

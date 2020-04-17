@@ -1,0 +1,22 @@
+{
+    "textures": {
+        "particle": "flexmine:block/pizza_top",
+        "bottom": "flexmine:block/pizza_bottom",
+        "top": "flexmine:block/pizza_top",
+        "side": "flexmine:block/pizza_side",
+        "inside": "flexmine:block/pizza_inner"
+    },
+    "elements": [
+        {   "from": [ 8, 0, 1 ],
+            "to": [ 15, 6, 8 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#inside" },
+                "west":  { "texture": "#inside" },
+                "east":  { "texture": "#side" }
+            }
+        }
+    ]
+}

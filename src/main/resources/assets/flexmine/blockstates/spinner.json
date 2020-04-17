@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=north": { 
+			"model": "flexmine:block/spinner" 
+		},
+		"facing=south": {
+			"model": "flexmine:block/spinner",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "flexmine:block/spinner",
+			"y": 270
+		},
+		"facing=east": {
+			"model": "flexmine:block/spinner",
+			"y": 90
+		}
+    }
+}

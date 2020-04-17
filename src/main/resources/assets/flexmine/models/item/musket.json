@@ -1,0 +1,50 @@
+{
+	"parent": "item/generated",
+ 	"textures": {
+		"layer0": "flexmine:item/musket"
+	},
+	"display": {
+        "thirdperson_righthand": {
+			"scale": [ 0.6, 0.6, 0.6 ],
+            "rotation": [ 16, 270, 14 ],
+            "translation": [ 0, 1, -1.5 ]
+        },
+        "thirdperson_lefthand": {
+			"scale": [ 0.6, 0.6, 0.6 ],
+            "rotation": [ 16, 90, 346 ],
+            "translation": [ 0, 1, -1.5 ]
+        },
+        "firstperson_righthand": {
+			"scale": [ 0.6, 0.6, 0.6 ],
+            "rotation": [ 16, 270, 6 ],
+			"translation": [ 0, 2, -1.5 ]
+        },
+        "firstperson_lefthand": {
+			"scale": [ 0.6, 0.6, 0.6 ],
+            "rotation": [ 16, 90, 354 ],
+            "translation": [ 0, 2, -1.5 ]
+        }
+    },
+	"overrides": [
+		{
+			"predicate": {
+				"pulling": 1
+			},
+			"model": "flexmine:item/musket_loading_0"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.33
+			},
+			"model": "flexmine:item/musket_loading_1"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.67
+			},
+			"model": "flexmine:item/musket_loading_2"
+		}
+	]
+}

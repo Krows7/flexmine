@@ -1,0 +1,28 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "flexmine:item/musket"
+	},
+	"display": {
+        "thirdperson_righthand": {
+			"scale": [ 0.6, 0.6, 0.6 ],
+            "rotation": [ 16, 270, 14 ],
+            "translation": [ 0, 1, -1.5 ]
+        },
+        "thirdperson_lefthand": {
+			"scale": [ 0.6, 0.6, 0.6 ],
+            "rotation": [ 16, 90, 346 ],
+            "translation": [ 0, 1, -1.5 ]
+        },
+        "firstperson_righthand": {
+			"scale": [ 0.6, 0.6, 0.6 ],
+            "rotation": [ 16, 270, 24 ],
+			"translation": [ 0, -4, -1.5 ]
+        },
+        "firstperson_lefthand": {
+			"scale": [ 0.6, 0.6, 0.6 ],
+            "rotation": [ 16, 90, 336 ],
+            "translation": [ 0, -4, -1.5 ]
+        }
+    }
+}

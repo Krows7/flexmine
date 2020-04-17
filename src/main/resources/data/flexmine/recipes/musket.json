@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" I ",
+		"IWW",
+		" GW"
+	],
+	"key": {
+		"I": {
+			"item": "minecraft:iron_ingot"
+		},
+		"W": {
+			"tag": "minecraft:planks"
+		},
+		"G": {
+			"item": "minecraft:gold_nugget"
+		}
+	},
+	"result": {
+		"item": "flexmine:musket"
+	}
+}

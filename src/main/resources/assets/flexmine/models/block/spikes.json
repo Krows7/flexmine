@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "bottom": "flexmine:block/spikes_bottom",
+        "side": "flexmine:block/spikes",
+		"top": "flexmine:block/spikes_top"
+    }
+}

@@ -1,0 +1,23 @@
+{
+	"item.flexmine.flower_soup": "Суп из цветов",
+	"item.flexmine.milk_bottle": "Пузырёк с молоком",
+	"item.flexmine.pumpkin_slice": "Кусочек тыквы",
+	"item.flexmine.baked_pumpkin_slice": "Приготовленный кусочек тыквы",
+	"item.flexmine.pumpkin_cookie": "Тыквенное печенье",
+	"item.flexmine.musket": "Мушкет",
+	"item.flexmine.spikes": "Шипы",
+	"item.flexmine.pumpkin_soup": "Тыквенный суп",
+	"item.flexmine.needle": "Спица для вязания",
+	"item.flexmine.minced_meat": "Фарш",
+	"item.flexmine.oil_bottle": "Бутылочка с маслом",
+	"item.flexmine.sausage": "Колбаска",
+	"item.flexmine.dough": "Тесто",
+	"item.flexmine.cheeze": "Сыр",
+	"item.flexmine.raw_pizza": "Сырая пицца",
+	"entity.minecraft.villager.flexmine.broker": "Брокер",
+	"container.flexmine.spinner": "Прялка",
+	"block.flexmine.spinner": "Прялка",
+	"block.flexmine.pizza": "Пицца",
+	"block.flexmine.light_reflector": "Отражатель света",
+	"block.flexmine.light_detector": "Датчик света"
+}

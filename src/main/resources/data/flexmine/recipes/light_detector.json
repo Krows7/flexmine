@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"CRC",
+		"RDR",
+		"CRC"
+	],
+	"key": {
+		"C": {
+			"item": "minecraft:cobblestone"
+		},
+		"R": {
+			"item": "minecraft:redstone"
+		},
+		"D": {
+			"item": "minecraft:daylight_detector"
+		}
+	},
+	"result": {
+		
+		"item": "flexmine:light_detector"
+	}
+}

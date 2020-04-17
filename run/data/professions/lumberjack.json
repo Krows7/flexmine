@@ -1,0 +1,58 @@
+{
+	"level_1": [
+		{
+			"type": "sell",
+			"data": {
+				"max_offers": 200,
+				"xp": 2,
+				"price_multiplier": 0.02,
+				"wanted": {
+					"item": "oak_planks",
+					"count": 16
+				},
+				"emeralds": 2
+			}
+		}
+	],
+	"level_2": [
+		{
+			"type": "buy",
+			"data": {
+				"xp": 100,
+				"given": {
+					"item": "diamond_axe",
+					"nbt": {
+						"Enchantments": [
+							{
+								"lvl": 5,
+								"id": "sharpness"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"type": "buy",
+			"data": {
+				"xp": 100,
+				"given": {
+					"item": "grass"
+				}
+			}
+		}
+	],
+	"level_3": [
+		{
+			"type": "buy",
+			"data": {
+				"xp": 100,
+				"given": {
+					"item": "obsidian"
+				}
+			}
+		}
+	],
+	"level_4": [],
+	"level_5": []
+}

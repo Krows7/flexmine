@@ -1,0 +1,8 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+[[mods]]
+modId="flexmine"
+version="${file.jarVersion}"
+displayName="FlexMine"
+authors="Krows :3"
+description='''FlexMine Mod.'''

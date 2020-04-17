@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PC"
+  ],
+  "key": {
+    "P": {
+      "item": "flexmine:pumpkin_slice"
+    },
+    "C": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "result": {
+    "item": "flexmine:pumpkin_cookie",
+    "count": 8
+  }
+}

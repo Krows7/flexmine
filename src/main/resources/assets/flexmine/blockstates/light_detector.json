@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "facing=down": { "model": "flexmine:block/light_detector", "x": 90 },
+        "facing=up": { "model": "flexmine:block/light_detector", "x": 270 },
+        "facing=north": { "model": "flexmine:block/light_detector" },
+        "facing=south": { "model": "flexmine:block/light_detector", "y": 180 },
+        "facing=west": { "model": "flexmine:block/light_detector", "y": 270 },
+        "facing=east": { "model": "flexmine:block/light_detector", "y": 90 }
+    }
+}

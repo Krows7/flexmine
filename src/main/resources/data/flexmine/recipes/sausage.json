@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smoking",
+	"ingredient": {
+		"item": "flexmine:minced_meat"
+	},
+	"result": "flexmine:sausage",
+	"experience": 1,
+	"cookingtime": 120
+}
