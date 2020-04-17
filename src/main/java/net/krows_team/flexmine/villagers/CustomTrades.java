@@ -12,7 +12,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.item.MerchantOffer;
 
-// TODO
 public class CustomTrades {
 	
 	private static boolean registered;
@@ -23,17 +22,7 @@ public class CustomTrades {
 			
 			registered = true;
 			
-			System.out.println("Our Profession Folder: " + FileUtils.PROFESSIONS_FOLDER.getAbsolutePath());
-			System.out.println(FileUtils.PROFESSIONS_FOLDER.exists());
-			
 			for(File file : FileUtils.PROFESSIONS_FOLDER.listFiles()) FileUtils.consumeOrCreate(file, s -> TradeUtils.loadTrades(file.getName().substring(0, file.getName().lastIndexOf('.')), s));
-			
-//			VillagerTrades.field_221239_a.put(CustomProfessions.BROKER, new Int2ObjectOpenHashMap<>(ImmutableMap.of(1, new VillagerTrades.ITrade[] {
-//				
-//				createBuilder(100, 2, 0).sellForEmerald(new ItemStack(Items.OBSIDIAN, 2)).build()
-////				createTrade(Items.OBSIDIAN, 2, 100, 2),
-////				createTrade(Items.GOLD_INGOT, 4, 15, 2)
-//			})));
 		}
 	}
 	
@@ -140,8 +129,6 @@ public class CustomTrades {
 			this.toSellAdditional = toSellAdditional;
 			
 			this.toBuy = toBuy;
-			
-			System.out.println("Barter: " + toSell.getItem() + " + " + toSellAdditional.getItem() + " = " + toBuy.getItem());
 			
 			return this;
 		}

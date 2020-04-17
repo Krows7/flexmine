@@ -3,7 +3,7 @@ package net.krows_team.flexmine.entities;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-import net.krows_team.flexmine.registry.MyLocalModEntryContainer;
+import net.krows_team.flexmine.registry.FlexMineEntryContainer;
 import net.minecraft.entity.CreatureEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityClassification;
@@ -15,7 +15,7 @@ import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.world.World;
 
-public class CustomEntities extends MyLocalModEntryContainer<EntityType<?>> {
+public class CustomEntities extends FlexMineEntryContainer<EntityType<?>> {
 	
 	public final static CustomEntities INSTANCE = new CustomEntities();
 	

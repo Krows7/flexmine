@@ -3,7 +3,7 @@ package net.krows_team.flexmine.blocks;
 import java.util.function.Function;
 import java.util.function.UnaryOperator;
 
-import net.krows_team.flexmine.registry.MyLocalModEntryContainer;
+import net.krows_team.flexmine.registry.FlexMineEntryContainer;
 import net.minecraft.block.Block;
 import net.minecraft.block.Block.Properties;
 import net.minecraft.block.SoundType;
@@ -11,7 +11,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraftforge.common.ToolType;
 
-public final class CustomBlocks extends MyLocalModEntryContainer<Block> {
+public final class CustomBlocks extends FlexMineEntryContainer<Block> {
 	
 	public final static CustomBlocks INSTANCE = new CustomBlocks();
 	

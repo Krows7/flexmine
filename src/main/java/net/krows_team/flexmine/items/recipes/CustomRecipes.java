@@ -1,11 +1,11 @@
 package net.krows_team.flexmine.items.recipes;
 
-import net.krows_team.flexmine.registry.MyLocalModEntryContainer;
+import net.krows_team.flexmine.registry.FlexMineEntryContainer;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.item.crafting.IRecipeSerializer;
 import net.minecraft.item.crafting.SpecialRecipeSerializer;
 
-public class CustomRecipes extends MyLocalModEntryContainer<IRecipeSerializer<?>> {
+public class CustomRecipes extends FlexMineEntryContainer<IRecipeSerializer<?>> {
 	
 	public final static CustomRecipes INSTANCE = new CustomRecipes();
 	

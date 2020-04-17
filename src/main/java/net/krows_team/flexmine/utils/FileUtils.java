@@ -9,9 +9,18 @@ import java.util.stream.Stream;
 
 public class FileUtils {
 	
-	public final static File PROFESSIONS_FOLDER = getOrCreate("data\\professions");
+	public final static File PROFESSIONS_FOLDER = getOrMKDIR("data\\professions");
 	
-	public static File getOrCreate(String name) {
+/**
+ * 
+ * Returns directory with specified path and it doesn't exist then creates it.
+ * 
+ * @param name Path to directory.
+ * 
+ * @return {@link File} directory with specified path.
+ * 
+ */
+	public static File getOrMKDIR(String name) {
 		
 		File file = new File(name);
 		
@@ -20,12 +29,31 @@ public class FileUtils {
 		return file;
 	}
 	
+/**
+ * 
+ * If specified file exists then runs specified {@link Consumer} with file text. Otherwise creates it.
+ * 
+ * @param path File to extract text.
+ * 
+ * @param ifPresent {@link Consumer} object of file text.
+ * 
+ */
+//	TODO
 	public static void consumeOrCreate(File path, Consumer<String> ifPresent) {
 		
 		if(path.exists()) ifPresent.accept(read(path));
 		else run(() -> path.createNewFile());
 	}
 	
+/**
+ * 
+ * Returns String data from specified file.
+ * 
+ * @param path File to extract text.
+ * 
+ * @return Text from specified file.
+ * 
+ */
 	private static String read(File path) {
 		
 		StringBuilder builder = new StringBuilder();

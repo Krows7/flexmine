@@ -5,15 +5,12 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.nio.file.Files;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.mojang.authlib.Agent;
-
 import net.minecraft.util.math.RayTraceContext;
-import net.minecraftforge.userdev.LaunchTesting;
 
+@Deprecated
 public class FlexMineClassLoader extends ClassLoader {
 	
 	private Map<String, Class<?>> classCache = new HashMap<>();

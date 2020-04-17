@@ -1,10 +1,10 @@
 package net.krows_team.flexmine.containers;
 
-import net.krows_team.flexmine.registry.MyLocalModEntryContainer;
+import net.krows_team.flexmine.registry.FlexMineEntryContainer;
 import net.minecraft.inventory.container.Container;
 import net.minecraft.inventory.container.ContainerType;
 
-public class CustomContainers extends MyLocalModEntryContainer<ContainerType<?>> {
+public class CustomContainers extends FlexMineEntryContainer<ContainerType<?>> {
 	
 	public final static CustomContainers INSTANCE = new CustomContainers();
 	

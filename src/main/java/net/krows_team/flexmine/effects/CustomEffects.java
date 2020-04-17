@@ -1,10 +1,10 @@
 package net.krows_team.flexmine.effects;
 
-import net.krows_team.flexmine.registry.MyLocalModEntryContainer;
+import net.krows_team.flexmine.registry.FlexMineEntryContainer;
 import net.minecraft.potion.Effect;
 import net.minecraft.potion.EffectType;
 
-public class CustomEffects extends MyLocalModEntryContainer<Effect> {
+public class CustomEffects extends FlexMineEntryContainer<Effect> {
 	
 	public final static CustomEffects INSTANCE = new CustomEffects();
 	

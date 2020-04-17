@@ -6,14 +6,14 @@ import java.util.Set;
 
 import com.google.common.collect.ImmutableSet;
 
-import net.krows_team.flexmine.registry.MyLocalModEntryContainer;
+import net.krows_team.flexmine.registry.FlexMineEntryContainer;
 import net.krows_team.flexmine.utils.Reflections;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.village.PointOfInterestType;
 
-public class CustomPointOfInterestTypes extends MyLocalModEntryContainer<PointOfInterestType> {
+public class CustomPointOfInterestTypes extends FlexMineEntryContainer<PointOfInterestType> {
 	
 	public final static CustomPointOfInterestTypes INSTANCE = new CustomPointOfInterestTypes();
 	

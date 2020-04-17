@@ -2,14 +2,14 @@ package net.krows_team.flexmine.tile_entities;
 
 import net.krows_team.flexmine.FlexMine;
 import net.krows_team.flexmine.blocks.CustomBlocks;
-import net.krows_team.flexmine.registry.MyLocalModEntryContainer;
+import net.krows_team.flexmine.registry.FlexMineEntryContainer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.tileentity.TileEntityType.Builder;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.registry.Registry;
 
-public class CustomTileEntities extends MyLocalModEntryContainer<TileEntityType<?>> {
+public class CustomTileEntities extends FlexMineEntryContainer<TileEntityType<?>> {
 	
 	public final static CustomTileEntities INSTANCE = new CustomTileEntities();
 	

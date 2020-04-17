@@ -5,7 +5,7 @@ import java.util.function.UnaryOperator;
 
 import net.krows_team.flexmine.blocks.CustomBlocks;
 import net.krows_team.flexmine.effects.CustomEffects;
-import net.krows_team.flexmine.registry.MyLocalModEntryContainer;
+import net.krows_team.flexmine.registry.FlexMineEntryContainer;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Food;
@@ -19,7 +19,7 @@ import net.minecraft.item.SoupItem;
 import net.minecraft.item.TieredItem;
 import net.minecraft.potion.EffectInstance;
 
-public final class CustomItems extends MyLocalModEntryContainer<Item> {
+public final class CustomItems extends FlexMineEntryContainer<Item> {
 	
 	public final static CustomItems INSTANCE = new CustomItems();
 	
