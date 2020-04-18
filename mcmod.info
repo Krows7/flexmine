@@ -2,7 +2,7 @@
 {
   "modid": "flexmine",
   "name": "FlexMine Mod",
-  "description": "FlexMine is a Minecraft Mod.",
+  "description": "Just a mod.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "authorList": ["Krows"]
